@@ -191,10 +191,8 @@
 </ul>
 <h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><ul>
 <li>单一段落()用一个空白行</li>
-<li><p>连续两个空格 会变成一个<br></p>
-</li>
-<li><p>连续3个符号，然后是空行，表示 hr横线</p>
-</li>
+<li>连续两个空格 会变成一个<br></li>
+<li>连续3个符号，然后是空行，表示 hr横线</li>
 </ul>
 <hr>
 <h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><ul>
@@ -215,16 +213,13 @@
 </ul>
 <hr>
 <h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><ul>
-<li><p>直接写 <a href="url" title="可选的title">锚文本</a></p>
-</li>
-<li><p>引用 先定义 [ref_name]:url，然后在需要写入url的地方， 这样使用[锚文本][ref_name]，通常的 ref_name一般用数字表示，这样显得专业</p>
-</li>
-<li><p>简写url：用尖括号包裹url 这样生成的url锚文本就是url本身</p>
-</li>
+<li>直接写 [锚文本](url “可选的title”)</li>
+<li>引用 先定义 [ref_name]:url，然后在需要写入url的地方， 这样使用[锚文本][ref_name]，通常的 ref_name一般用数字表示，这样显得专业</li>
+<li>简写url：用尖括号包裹url 这样生成的url锚文本就是url本身</li>
 </ul>
 <hr>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><ul>
-<li>一行表示: <img src="url" alt="alt_text" title="可选的title"></li>
+<li>一行表示: ![alt_text](url “可选的title”)</li>
 <li>引用表示法: ![alt_text][id],预先定义 [id]:url “可选title”</li>
 <li>直接使用<img src="" alt="">标签，这样可以指定图片的大小尺寸</li>
 </ul>
