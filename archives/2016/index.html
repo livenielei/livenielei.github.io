@@ -91,7 +91,7 @@
             
               <li class="tag-list-container">
                 <a href="javascript:;">标签</a>
-                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/一分钟学会MakeDown/">一分钟学会MakeDown</a><span class="tag-list-count">1</span></li></ul>
+                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/聂磊/">聂磊</a><span class="tag-list-count">1</span></li></ul>
               </li>
             
           
@@ -183,7 +183,7 @@
 
         
 	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/一分钟学会MakeDown/">一分钟学会MakeDown</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/聂磊/">聂磊</a></li></ul>
 	</span>
 
 
@@ -195,23 +195,54 @@
 <li>空白行表示另起一个段落</li>
 <li>`是表示inline代码，tab是用来标记 代码段，分别对应html的code，pre标签</li>
 </ul>
+<hr>
 <h1 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h1><ul>
-<li>单一段落( <p>) 用一个空白行</p></li>
-<li>连续两个空格 会变成一个 <br></li>
-<li>连续3个符号，然后是空行，表示 hr横线</li>
+<li><p>单一段落()用一个空白行</p>
+</li>
+<li><p>连续两个空格 会变成一个<br></p>
+</li>
+<li><p>连续3个符号，然后是空行，表示 hr横线</p>
+</li>
 </ul>
+<hr>
 <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><ul>
-<li>生成h1–h6,在文字前面加上 1–6个# 来实现</li>
-<li>文字加粗是通过 文字左右各两个符号</li>
+<li><p>生成h1–h6,在文字前面加上 1–6个# 来实现</p>
+</li>
+<li><p>文字加粗是通过 文字左右各两个符号</p>
+</li>
 </ul>
+<hr>
 <h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><ul>
 <li>在第一行加上 “&gt;”和一个空格，表示代码引用，还可以嵌套</li>
 </ul>
-<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><ul>
+<hr>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>这个是markdown文件的主要表示方式，主题要点化</p>
+<ul>
 <li>使用*,+,-加上一个空格来表示</li>
 <li>可以支持嵌套</li>
 <li>有序列表用 数字+英文点+空格来表示</li>
 <li>列表内容很长，不需要手工输入换行符，css控制段落的宽度，会自动的缩放的</li>
+</ul>
+<hr>
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><ul>
+<li><p>直接写 <a href="url" title="可选的title">锚文本</a></p>
+</li>
+<li><p>引用 先定义 [ref_name]:url，然后在需要写入url的地方， 这样使用[锚文本][ref_name]，通常的 ref_name一般用数字表示，这样显得专业</p>
+</li>
+<li><p>简写url：用尖括号包裹url 这样生成的url锚文本就是url本身</p>
+</li>
+</ul>
+<hr>
+<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><ul>
+<li>一行表示: <img src="url" alt="alt_text" title="可选的title"></li>
+<li>引用表示法: ![alt_text][id],预先定义 [id]:url “可选title”</li>
+<li>直接使用<img src="" alt="">标签，这样可以指定图片的大小尺寸</li>
+</ul>
+<hr>
+<h1 id="特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符"></a>特殊字符</h1><ul>
+<li>用\来转义，表示文本中的markdown符号</li>
+<li>可以在文本种直接使用html标签，但是要注意在使用的时候，前后加上空行</li>
+<li>文本前后各加一个符号，表示斜体</li>
 </ul>
 
         
